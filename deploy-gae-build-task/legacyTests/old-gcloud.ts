@@ -23,8 +23,8 @@ import * as path from 'path';
 import {
   TaskLibAnswerExecResult,
   TaskLibAnswers
-} from 'vsts-task-lib/mock-answer';
-import {TaskMockRunner} from 'vsts-task-lib/mock-run';
+} from 'azure-pipelines-task-lib/mock-answer';
+import {TaskMockRunner} from 'azure-pipelines-task-lib/mock-run';
 
 const taskPath = path.join(__dirname, '..', 'run.js');
 const runner = new TaskMockRunner(taskPath);

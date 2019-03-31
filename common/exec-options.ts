@@ -20,8 +20,8 @@
 
 import * as fs from 'fs';
 import * as stream from 'stream';
-import * as task from 'vsts-task-lib/task';
-import {IExecOptions} from 'vsts-task-lib/toolrunner';
+import * as task from 'azure-pipelines-task-lib/task';
+import {IExecOptions} from 'azure-pipelines-task-lib/toolrunner';
 
 import * as sc from './strings';
 

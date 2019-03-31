@@ -15,8 +15,8 @@
 import * as exec from 'common/exec-options';
 import {isoNowString} from 'common/format';
 import * as path from 'path';
-import * as task from 'vsts-task-lib/task';
-import {ToolRunner} from 'vsts-task-lib/toolrunner';
+import * as task from 'azure-pipelines-task-lib/task';
+import {ToolRunner} from 'azure-pipelines-task-lib/toolrunner';
 
 import * as strings from './string-constants';
 

@@ -5,7 +5,7 @@
   "description": "A package with modules common to all cloud-tools-tfs build tasks",
   "license": "Apache-2.0",
   "dependencies": {
-    "vsts-task-lib": "^2.1.0"
+    "azure-pipelines-task-lib": "^2.7.7"
   },
   "devDependencies": {
     "@types/mocha": "^2.2.48",

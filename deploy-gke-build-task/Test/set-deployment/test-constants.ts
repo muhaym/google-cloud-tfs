@@ -13,7 +13,7 @@
 // limitations under the License.
 
 import * as mocks from 'common/register-mocks';
-import {TaskLibAnswerExecResult} from 'vsts-task-lib/mock-answer';
+import {TaskLibAnswerExecResult} from 'azure-pipelines-task-lib/mock-answer';
 import {Deployment} from '../../interfaces';
 import * as tc from '../test-constants';
 

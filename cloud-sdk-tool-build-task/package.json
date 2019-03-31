@@ -9,9 +9,9 @@
   "license": "Apache-2.0",
   "repository": "https://github.com/GoogleCloudPlatform/google-cloud-tfs.git",
   "dependencies": {
-    "common": "file:../common/bin/common-0.0.1.tgz",
-    "vsts-task-lib": "^2.1.0",
-    "vsts-task-tool-lib": "^0.4.0"
+    "azure-pipelines-task-lib": "^2.7.7",
+    "azure-pipelines-tool-lib": "^0.11.0",
+    "common": "file:../common/bin/common-0.0.1.tgz"
   },
   "devDependencies": {
     "@types/fs-extra": "^5.0.0",

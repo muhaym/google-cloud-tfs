@@ -18,9 +18,9 @@ import * as os from 'os';
 import * as path from 'path';
 import * as Q from 'q';
 import {IMock, It, Mock, Times} from 'typemoq';
-import * as task from 'vsts-task-lib/task';
-import * as toolRunner from 'vsts-task-lib/toolrunner';
-import * as toolLib from 'vsts-task-tool-lib/tool';
+import * as task from 'azure-pipelines-task-lib/task';
+import * as toolRunner from 'azure-pipelines-task-lib/toolrunner';
+import * as toolLib from 'azure-pipelines-tool-lib/tool';
 
 import {CloudSdkPackage} from '../cloud-sdk-package';
 

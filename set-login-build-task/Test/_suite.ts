@@ -24,7 +24,7 @@ import {
   assertKeyFileWritten
 } from 'common/asserts';
 import * as path from 'path';
-import {MockTestRunner} from 'vsts-task-lib/mock-test';
+import {MockTestRunner} from 'azure-pipelines-task-lib/mock-test';
 
 describe('set-login-build-task tests', () => {
 

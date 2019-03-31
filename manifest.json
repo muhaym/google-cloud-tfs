@@ -19,7 +19,7 @@
       "addressable": true
     }
   ],
-  "categories": [ "Build and release" ],
+  "categories": [ "Azure Pipelines" ],
   "tags": [
     "google",
     "cloud",

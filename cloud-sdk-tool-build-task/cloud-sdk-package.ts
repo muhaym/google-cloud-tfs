@@ -20,8 +20,8 @@ import {getDefaultExecOptions} from 'common/exec-options';
 import * as http from 'http';
 import * as os from 'os';
 import * as path from 'path';
-import * as task from 'vsts-task-lib/task';
-import * as toolLib from 'vsts-task-tool-lib/tool';
+import * as task from 'azure-pipelines-task-lib/task';
+import * as toolLib from 'azure-pipelines-tool-lib/tool';
 
 type ValidPlatform = 'win32'|'linux'|'darwin';
 type ValidArch = 'x64'|'x86'|'ia32';

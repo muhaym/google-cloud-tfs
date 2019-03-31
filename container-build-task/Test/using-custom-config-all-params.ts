@@ -19,8 +19,8 @@
  */
 import {getDefaultAnswers, registerCommonMocks} from 'common/register-mocks';
 import * as path from 'path';
-import {TaskLibAnswers} from 'vsts-task-lib/mock-answer';
-import {TaskMockRunner} from 'vsts-task-lib/mock-run';
+import {TaskLibAnswers} from 'azure-pipelines-task-lib/mock-answer';
+import {TaskMockRunner} from 'azure-pipelines-task-lib/mock-run';
 
 import {successResult} from './test-constants';
 

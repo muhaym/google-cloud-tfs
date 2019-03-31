@@ -18,7 +18,7 @@
  * @author JimWP@google.com (Jim Przybylinski)
  */
 
-import * as task from 'vsts-task-lib/task';
+import * as task from 'azure-pipelines-task-lib/task';
 
 import {AggregateError} from './aggregate-error';
 import * as s from './strings';

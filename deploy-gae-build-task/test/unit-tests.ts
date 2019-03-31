@@ -17,8 +17,8 @@ import * as mockery from 'mockery';
 import * as path from 'path';
 import * as Q from 'q';
 import {IMock, It, Mock, MockBehavior, Times} from 'typemoq';
-import * as taskTypeDef from 'vsts-task-lib/task';
-import * as trTypeDef from 'vsts-task-lib/toolrunner';
+import * as taskTypeDef from 'azure-pipelines-task-lib/task';
+import * as trTypeDef from 'azure-pipelines-task-lib/toolrunner';
 
 import * as deployGaeTypeDef from '../deploy-gae';
 
@@ -50,17 +50,17 @@ describe('unit tests', () => {
   before('setup mockery', () => {
     /* tslint:disable no-require-imports */
     // ReSharper disable CommonJsExternalModule
-    taskLibMock = Mock.ofInstance(require('vsts-task-lib/task'));
+    taskLibMock = Mock.ofInstance(require('azure-pipelines-task-lib/task'));
     taskLibMock.callBase = true;
     mockery.enable({
       useCleanCache : true,
       warnOnUnregistered : false,
     });
-    mockery.registerMock('vsts-task-lib/task', taskLibMock.object);
+    mockery.registerMock('azure-pipelines-task-lib/task', taskLibMock.object);
 
     execOptions = require('common/exec-options');
     deployGae = require('../deploy-gae');
-    task = require('vsts-task-lib/task');
+    task = require('azure-pipelines-task-lib/task');
     // ReSharper restore CommonJsExternalModule
     /* tslint:enable no-require-imports */
   });

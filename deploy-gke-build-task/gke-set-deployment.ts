@@ -18,8 +18,8 @@
  * @author przybjw@google.com (Jim Przybylinski)
  */
 import {KubeEndpoint} from 'common/exec-options';
-import * as task from 'vsts-task-lib/task';
-import {TaskResult} from 'vsts-task-lib/task';
+import * as task from 'azure-pipelines-task-lib/task';
+import {TaskResult} from 'azure-pipelines-task-lib/task';
 
 import {Deployment} from './interfaces';
 import * as s from './strings';

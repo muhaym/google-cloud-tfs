@@ -21,7 +21,7 @@ import {AggregateError} from 'common/aggregate-error';
 import {KubeEndpoint} from 'common/exec-options';
 import * as fs from 'fs';
 import * as yaml from 'js-yaml';
-import * as task from 'vsts-task-lib/task';
+import * as task from 'azure-pipelines-task-lib/task';
 
 import {KubeResource} from './interfaces';
 import * as s from './strings';

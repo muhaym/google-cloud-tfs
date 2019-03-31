@@ -16,8 +16,8 @@ import * as assert from 'assert';
 import {Endpoint} from 'common/exec-options';
 import * as Q from 'q';
 import {IMock, It, Mock, MockBehavior, Times} from 'typemoq';
-import * as task from 'vsts-task-lib/task';
-import {ToolRunner} from 'vsts-task-lib/toolrunner';
+import * as task from 'azure-pipelines-task-lib/task';
+import {ToolRunner} from 'azure-pipelines-task-lib/toolrunner';
 
 import {
   getInstanceGroupIps,

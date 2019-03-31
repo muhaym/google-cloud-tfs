@@ -23,8 +23,8 @@
  */
 import {Endpoint, getQuietExecOptions} from 'common/exec-options';
 import {catchAll} from 'common/handle-rejection';
-import * as task from 'vsts-task-lib/task';
-import {IExecOptions} from 'vsts-task-lib/toolrunner';
+import * as task from 'azure-pipelines-task-lib/task';
+import {IExecOptions} from 'azure-pipelines-task-lib/toolrunner';
 
 import TaskResult = task.TaskResult;
 

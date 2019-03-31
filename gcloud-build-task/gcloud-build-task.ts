@@ -18,8 +18,8 @@
  */
 
 import {Endpoint, getDefaultExecOptions} from 'common/exec-options';
-import * as task from 'vsts-task-lib/task';
-import {IExecOptions, ToolRunner} from 'vsts-task-lib/toolrunner';
+import * as task from 'azure-pipelines-task-lib/task';
+import {IExecOptions, ToolRunner} from 'azure-pipelines-task-lib/toolrunner';
 
 import TaskResult = task.TaskResult;
 

@@ -18,9 +18,9 @@
  * @author JimWP@google.com (Jim Przybylinski)
  */
 import * as fs from 'fs';
-import {TaskLibAnswers} from 'vsts-task-lib/mock-answer';
-import {TaskMockRunner} from 'vsts-task-lib/mock-run';
-import {EndpointAuthorization} from 'vsts-task-lib/mock-task';
+import {TaskLibAnswers} from 'azure-pipelines-task-lib/mock-answer';
+import {TaskMockRunner} from 'azure-pipelines-task-lib/mock-run';
+import {EndpointAuthorization} from 'azure-pipelines-task-lib/mock-task';
 
 // clang-format off
 export {

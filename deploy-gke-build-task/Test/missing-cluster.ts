@@ -19,7 +19,7 @@
  */
 import * as mocks from 'common/register-mocks';
 import * as path from 'path';
-import {TaskMockRunner} from 'vsts-task-lib/mock-run';
+import {TaskMockRunner} from 'azure-pipelines-task-lib/mock-run';
 
 import * as tc from './test-constants';
 

@@ -14,7 +14,7 @@
 
 import {KubeEndpoint} from 'common/exec-options';
 import {catchAll} from 'common/handle-rejection';
-import * as task from 'vsts-task-lib/task';
+import * as task from 'azure-pipelines-task-lib/task';
 
 import {runKubectl} from './kubectl-build-task';
 

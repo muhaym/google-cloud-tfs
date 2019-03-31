@@ -13,7 +13,7 @@
 // limitations under the License.
 
 import {Endpoint, getDefaultExecOptions} from 'common/exec-options';
-import * as task from 'vsts-task-lib/task';
+import * as task from 'azure-pipelines-task-lib/task';
 
 /**
  * @fileoverview This is the implementation of the instance group ips task.

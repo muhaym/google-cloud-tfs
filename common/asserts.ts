@@ -17,7 +17,7 @@
  * @author JimWP@google.com (Jim Przybylinski)
  */
 import * as assert from 'assert';
-import {MockTestRunner} from 'vsts-task-lib/mock-test';
+import {MockTestRunner} from 'azure-pipelines-task-lib/mock-test';
 
 import * as mock from './register-mocks';
 import * as s from './strings';

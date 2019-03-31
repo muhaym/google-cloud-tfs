@@ -14,7 +14,7 @@
 
 
 import * as os from 'os';
-import { TaskLibAnswerExecResult } from 'vsts-task-lib/mock-answer';
+import { TaskLibAnswerExecResult } from 'azure-pipelines-task-lib/mock-answer';
 import { SuccessOption } from 'common/asserts';
 
 export const gcloudOutput = '[gcloud output]';

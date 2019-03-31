@@ -16,7 +16,7 @@ import * as assert from 'assert';
 import * as ctTfsAssert from 'common/asserts';
 import {toKebabCase} from 'common/strings';
 import * as path from 'path';
-import {MockTestRunner} from 'vsts-task-lib/mock-test';
+import {MockTestRunner} from 'azure-pipelines-task-lib/mock-test';
 
 import * as s from '../../strings';
 

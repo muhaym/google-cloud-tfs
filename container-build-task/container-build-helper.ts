@@ -17,8 +17,8 @@
  * @author przybjw@google.com (Jim Przybylinski)
  */
 import * as os from 'os';
-import * as task from 'vsts-task-lib/task';
-import {ToolRunner} from 'vsts-task-lib/toolrunner';
+import * as task from 'azure-pipelines-task-lib/task';
+import {ToolRunner} from 'azure-pipelines-task-lib/toolrunner';
 
 /**
  * Builds the full image tag from parameters.
